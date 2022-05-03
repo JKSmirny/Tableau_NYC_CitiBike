@@ -1,5 +1,51 @@
 # Tableau Homework - Citi Bike Analytics
 
+Answer 1: The area from 4st up to 96st in Manhattan looks crowded enough at light night to warrant a bike rental. 
+There is also a large cluster of bike rentals around 11 pm (23:00) next to The Continental Army Plaza in Brooklyn. 
+Looks like people living tin that area pick up bikes when they arrive there via either subway of a bus.
+
+Question 2a: Is there a gender difference in late night bikes' pick up numbers in NYC??
+Dashboard 2,  Sheet 4A, Table_1, Sheet 5A
+Late night time range I picked here is from 10 pm (22:30) to 1 am (1:29)
+
+Answer 2a: There are 3 times more male bike riders during late night hours as female ones.
+
+Question 2b: What is a gender difference in early morning bikes' pick up numbers in NYC?
+Sheet 4B, Table_2, Sheet 5B
+The time up to 30 min before the hour and 30 mon after the hour.
+Early morning time range I picked is from 4 am (3:30) to 6 am (6:29). 
+Note: I have excluded the riders who have not specified their gender (none before 5:30, 5% between 5:30 and 6:30)
+
+Answer 2b: There is a significant difference in number of female and male riders 
+in the early morning hours in NYC: on average there are 3 times more male riders than females (75% vs 25%).
+
+Additionally, there is a drastic increase in the riders' numbers after 5:30: 
+there are 3 times more bikes pick-up's at 5 am than at 4 am,
+there are 4 times as many bike pick-up's at 6 am than at 5 am,
+there are 8 times as many bike pick-up's at 6 am than at 4 am. 
+
+Interesting that the most early morning bike riders in the early morning rent their bikes monthly. 
+Hourly renters do not appear at all until 5:30 am and even then they only account for 5%.
+
+Question 3a: Is there a difference in the peak hours of bike rental during weekday and weekend? 
+
+Question 3: Is there a difference in the peak hours of bike rental during weekday and weekend? 
+Sheet 7A, Sheet 7B, 
+
+Answer 3: The peak hours of bike rental on the wekends are from 2pm to 5 pm (13:30-17:29), 
+while during weekdays the most bikes are picked ap at around 6pm (17:30-18:29).
+
+Interesting that theare significantly more bike rentals from Tue to Thu than on Mon and Fri. 
+The peak hour remains the same, 6pm (17:30-18:29).
+
+Curious fact: The most bikes in NYC during April of 2020 were rented by the people, born in 1969.
+Explanation: People who rent bikes hourly are not required to specify their age, so they are assigned a default birth year of 1969.
+If you look at monthly bike renters, there is not such phenomenon. 
+
+
+
+
+
 ### Before You Begin
 
 * This assignment will be saved to your Tableau Public account rather than GitHub. 
