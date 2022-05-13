@@ -6,59 +6,42 @@ My Tableau story:
 NYC CitiBike has an extensive data, so I picked up middle of the pandemics, April 2020
 
 Question 1: Which parts of the city are considered to be safe eniugh to pick up a bike late at night? 
-Dashboard 1, Dashboard 2
-My criteria: 25 or more bike rentals at that hour. 
+D1: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D1NightTimevsEarlyMorningCitiBikeStartStations/Dashboard1
+My criteria: 10 or more bike rentals at that hour. 
 The time up to 30 min before the hour and 30 mon after the hour.
 Late night time range I picked is from 11 pm (22:30) to 1 am (1:29). 
 There were not enough trips registered after 1 am to warrant their inclusion in the data set. 
 I did not include 10 pm (22:00) trips becuase it enlarged my dataset enourmously, making it impossible to draw any conclusions.
 
-Answer 1: The area from 4st up to 96st in Manhattan looks crowded enough at light night to warrant a bike rental. 
-There is also a large cluster of bike rentals around 11 pm (23:00) next to The Continental Army Plaza in Brooklyn. 
-Looks like people living tin that area pick up bikes when they arrive there via either subway of a bus.
+Answer 1: The area from 4st up to 111 st in Manhattan looks crowded enough at light night to warrant a bike rental. 
 
-Question 2a: Is there a gender difference in late night bikes' pick up numbers in NYC??
-Dashboard 2,  Sheet 4A, Table_1, Sheet 5A
-Late night time range I picked here is from 10 pm (22:30) to 1 am (1:29)
+Question 2: Is there a difference in the peak hours of CitiBike rentals at weekdays vs weekends?
+D2: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D2CitiBikePeakRentalHoursWeekdaysvsWeekends/Dashboard2
 
-Answer 2a: There are 3 times more male bike riders during late night hours as female ones.
+Answer 2: Yes, the peak hour during working week is around 17:00 (5pm) and around 14:00 (2pm) at the weekend.
 
-Question 2b: What is a gender difference in early morning bikes' pick up numbers in NYC?
-Sheet 4B, Table_2, Sheet 5B
-The time up to 30 min before the hour and 30 mon after the hour.
-Early morning time range I picked is from 4 am (3:30) to 6 am (6:29). 
-Note: I have excluded the riders who have not specified their gender (none before 5:30, 5% between 5:30 and 6:30)
+Question 3: Are there days of the week when the most and the lest bikes are rented?
+D2: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D2CitiBikePeakRentalHoursWeekdaysvsWeekends/Dashboard2
 
-Answer 2b: There is a significant difference in number of female and male riders 
-in the early morning hours in NYC: on average there are 3 times more male riders than females (75% vs 25%).
+Answer 3: Friday seems to be less popular day to rent CitiBikes. There are also more bikes rented monthly (3x) during weekdays than on Saturdays (2X).
 
-Additionally, there is a drastic increase in the riders' numbers after 5:30: 
-there are 3 times more bikes pick-up's at 5 am than at 4 am,
-there are 4 times as many bike pick-up's at 6 am than at 5 am,
-there are 8 times as many bike pick-up's at 6 am than at 4 am. 
+Question 4: At what time CitiBikes are most likely to be picked up by hourly riders? 
+D5: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D5SubscribervsCustomerPeakHours/Dashboard5
 
-Interesting that the most early morning bike riders in the early morning rent their bikes monthly. 
-Hourly renters do not appear at all until 5:30 am and even then they only account for 5%.
+Answer 4: Hourly customers prefer to rent their bikes either in the middle of the day both at weekends and during the week. During working week there are many riders who pick up the bikes from 17:00 to 19:00 (after work).
 
-Question 3: Is there a difference in the peak hours of bike rental during weekday and weekend? 
-Sheet 7A, Sheet 7B, Sheet 9A, Sheet 9B
+Disclaimer: Public tableau provides only limited data, so in my analysis weekday means Wed, Thu or Fri, while weekend includes only Sat.
 
-Answer 3: The peak hours of bike rental on the wekends are from 2pm to 5 pm (13:30-17:29), 
-while during weekdays the most bikes are picked ap at around 6pm (17:30-18:29).
-
-Interesting that theare significantly more bike rentals from Tue to Thu than on Mon and Fri. 
+Interesting that there are significantly less bike rentals on Fridays. 
 The peak hour remains the same, 6pm (17:30-18:29).
 
 Curious fact 1: The most bikes in NYC during April of 2020 were rented by the people, born in 1969.
 Explanation: People who rent bikes hourly are not required to specify their age, so they are assigned a default birth year of 1969.
-If you look at monthly bike renters, there is not such phenomenon. 
-Dashboard 2, Sheet 3
 
-Curious fact 2: 
-Female riders tend to pick up bikes in the middle of the day, so do the hourly renters. 
-Sheet 6A, Sheet 6B
+D3: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D3_NumberofCitiBikeTripsperBirthYear/Dashboard3
+D4: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D4NumberofCitiBikeTripsperBirthYear/Dashboard4
 
-
+Riders picking up CitiBike for few hours do not have to specify either their birth year or their gender. By default they assigned 1969 as the birth year and neutral (0) as the gender. You can see this bias clearly if you filter out neutral gender.
 
 
 ### Before You Begin
