@@ -3,13 +3,15 @@
 # Tableau Homework - Citi Bike Analytics
 My Tableau story:
 
-NYC CitiBike has an extensive data, so I picked up middle of the pandemics, April 2020
+NYC CitiBike has an extensive data on bike rentals, so I decided to one month during pandemics, April 2020.
 
-Question 1: Which parts of the city are considered to be safe eniugh to pick up a bike late at night? 
+Here are the questions on topics I decided to analyze:
+
+Question 1: Which parts of the city are considered to be safe enough to pick up and ride a bike late at night? 
 D1: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D1NightTimevsEarlyMorningCitiBikeStartStations/Dashboard1
-My criteria: 10 or more bike rentals at that hour. 
-The time up to 30 min before the hour and 30 mon after the hour.
-Late night time range I picked is from 11 pm (22:30) to 1 am (1:29). 
+My criterias: 10 or more bike rentals at that hour. 
+              The time up to 30 min before the hour and 30 mon after the hour.
+              Late night time range: from 11 pm (22:30) to 1 am (1:29). 
 There were not enough trips registered after 1 am to warrant their inclusion in the data set. 
 I did not include 10 pm (22:00) trips becuase it enlarged my dataset enourmously, making it impossible to draw any conclusions.
 
@@ -18,21 +20,21 @@ Answer 1: The area from 4st up to 111 st in Manhattan looks crowded enough at li
 Question 2: Is there a difference in the peak hours of CitiBike rentals at weekdays vs weekends?
 D2: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D2CitiBikePeakRentalHoursWeekdaysvsWeekends/Dashboard2
 
-Answer 2: Yes, the peak hour during working week is around 17:00 (5pm) and around 14:00 (2pm) at the weekend.
+Answer 2: Yes, the peak hours during working week is around 17:00 (5pm) and around 14:00 (2pm) at the weekend.
 
-Question 3: Are there days of the week when the most and the lest bikes are rented?
+Question 3: Are there days of the week when the most and the least bikes are rented?
 D2: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D2CitiBikePeakRentalHoursWeekdaysvsWeekends/Dashboard2
 
-Answer 3: Friday seems to be less popular day to rent CitiBikes. There are also more bikes rented monthly (3x) during weekdays than on Saturdays (2X).
+Answer 3: Friday seems to be less popular day to rent CitiBikes. There are also more bikes rented monthly (3x more than hourly) during weekdays than on Saturdays (2X more than hourly).
 
-Question 4: At what time CitiBikes are most likely to be picked up by hourly riders? 
+Question 4: When CitiBikes are most likely to be picked up by hourly riders? 
 D5: https://public.tableau.com/app/profile/julia.kirillova.smirny/viz/D5SubscribervsCustomerPeakHours/Dashboard5
 
-Answer 4: Hourly customers prefer to rent their bikes either in the middle of the day both at weekends and during the week. During working week there are many riders who pick up the bikes from 17:00 to 19:00 (after work).
+Answer 4: Hourly customers prefer to rent their bikes either in the middle of the day both at weekends and during the week. During working week there are many riders who pick up the bikes from 17:00 to 19:00 (after work). Interestingly, there are 2x as much men than women picking up bikes after work.
 
-Disclaimer: Public tableau provides only limited data, so in my analysis weekday means Wed, Thu or Fri, while weekend includes only Sat.
+Disclaimer: Public tableau provides only limited data, so in my analysis weekday means Wed, Thu or Fri, while weekend includes only Sat. 
 
-Interesting that there are significantly less bike rentals on Fridays. 
+There are significantly less bike rentals on Fridays. 
 The peak hour remains the same, 6pm (17:30-18:29).
 
 Curious fact 1: The most bikes in NYC during April of 2020 were rented by the people, born in 1969.
